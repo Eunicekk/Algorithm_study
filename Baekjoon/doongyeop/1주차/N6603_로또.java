@@ -11,18 +11,18 @@ public class Main6603 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
+	
 		while (true) {
-
+			// 줄 첫번째 K, 0이면 종료
 			k = sc.nextInt();
 			if (k == 0)
 				break;
-
+			// K개 중 6개 고를 수 담을 배열
 			arr = new int[k];
 			for (int i = 0; i < k; i++) {
 				arr[i] = sc.nextInt();
 			}
-
+			// 답 담을 리스트
 			List<Integer> lottery = new ArrayList<>();
 			combination(lottery, 0);
 			sb.append("\n");
