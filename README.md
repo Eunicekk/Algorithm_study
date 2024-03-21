@@ -56,9 +56,11 @@
 ### 1차) SWEA A형 대비 알고리즘 유형 문제 풀이
 | 주차 | 유형 | 문제 링크 | 진행 상황 |
 |------|:----:|:---------:|:---------:|
-| 1주차 | 백트래킹 | [로또](https://www.acmicpc.net/problem/6603) |  |
-|  | 백트래킹 | [스타트와 링크](https://www.acmicpc.net/problem/14889) |  |
+| 1주차 | 재귀/백트래킹 | [로또](https://www.acmicpc.net/problem/6603) |  |
+|  | 재귀/백트래킹 | [스타트와 링크](https://www.acmicpc.net/problem/14889) |  |
+|  | 재귀/백트래킹 | [암호 만들기](https://www.acmicpc.net/problem/1759) |  |
 |  | 재귀 | [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) |  |
+
 | 2주차 |  |  |  |
 <br>
 
