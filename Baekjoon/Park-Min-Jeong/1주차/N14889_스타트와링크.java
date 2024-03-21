@@ -55,5 +55,6 @@ public class N14889_스타트와링크 {
 		System.out.println(answer);
 
 		sc.close();
+		
 	}
 }
