@@ -3,15 +3,16 @@ import java.util.Scanner;
 class Main {
 	
 	public static StringBuilder sb = new StringBuilder();
-	public static int[] arr;
-	public static boolean[] visited;
 	
-	// 백트래킹
-	public static void selectNum(int idx, int depth) {
+	public static int K;				// k개의 수 중에서 6개 선택
+	public static int[] arr;			// 수의 집합
+	public static boolean[] visited;	// 숫자 사용 확인 배열
+	
+	public static void selectNum(int idx, int count) {
 		
 		// 7번째 수를 뽑는 경우까지 내려온 경우 중단 및 출력
-		if (depth == 6) {
-			for (int i = 0; i < visited.length; i++) {
+		if (count == 6) {
+			for (int i = 0; i < K; i++) {
 				if (visited[i]) {
 					sb.append(arr[i] + " ");
 				}
@@ -20,10 +21,10 @@ class Main {
 		}
 		
 		// 전체 수의 개수(k)만큼 반복
-		for (int i = idx; i < arr.length; i++) {
+		for (int i = idx; i < K; i++) {
 			if (!visited[i]) {
 				visited[i] = true;
-				selectNum(i, depth + 1);
+				selectNum(i + 1, count + 1);
 				visited[i] = false;
 			}
 		}
@@ -36,14 +37,14 @@ class Main {
 		
 		while (true) {
 			
-			int k = sc.nextInt();		// k개의 수 중에서 6개 선택
-			if (k == 0)
+			K = sc.nextInt();		
+			if (K == 0)					// 0이 입력된 경우 중단
 				break;
 			
-			arr = new int[k];
-			visited = new boolean[k];
+			arr = new int[K];
+			visited = new boolean[K];
 			
-			for (int i = 0; i < k; i++) {
+			for (int i = 0; i < K; i++) {
 				arr[i] = sc.nextInt();
 			}
 			
