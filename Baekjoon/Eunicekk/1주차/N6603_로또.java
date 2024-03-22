@@ -1,13 +1,10 @@
-package com.baekjoon.day45;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// 로또
-public class Main_6603 {
+public class N6603_로또 {
 	
 	static int K;
 	static int[] selection;
