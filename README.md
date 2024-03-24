@@ -56,10 +56,14 @@
 ### 1차) SWEA A형 대비 알고리즘 유형 문제 풀이
 | 주차 | 유형 | 문제 링크 | 진행 상황 |
 |------|:----:|:---------:|:---------:|
-| 1주차 | 백트래킹 | [로또](https://www.acmicpc.net/problem/6603) |  |
-|  | 백트래킹 | [스타트와 링크](https://www.acmicpc.net/problem/14889) |  |
-|  | 재귀 | [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) |  |
-| 2주차 |  |  |  |
+| 1주차 | 재귀/백트래킹 | [로또](https://www.acmicpc.net/problem/6603) | `풀이 완료` |
+|  | 재귀/백트래킹 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | `풀이 완료` |
+|  | 재귀/백트래킹 | [암호 만들기](https://www.acmicpc.net/problem/1759) | `풀이 완료` |
+|  | 재귀 | [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | `풀이 완료` |
+| 2주차 | 완전탐색 | [퇴사](https://www.acmicpc.net/problem/14501) |  |
+|  | 완전탐색 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |  |
+|  | 완전탐색 | [리모컨](https://www.acmicpc.net/problem/1107) |  |
+|  | 구현 | [톱니바퀴](https://www.acmicpc.net/problem/14891) |  |
 <br>
 
 ## 🌟 공부 사이트
